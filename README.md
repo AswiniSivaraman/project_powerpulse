@@ -103,7 +103,34 @@ pip install pandas numpy matplotlib seaborn scikit-learn xgboost scipy ucimlrepo
 ## **Models Performance**
 
 
-![image](https://github.com/user-attachments/assets/7eb463c7-1326-4eb8-ab2f-cd73f5db8133)
+![image](https://github.com/user-attachments/assets/558b40b0-6c2b-4b55-aa72-12011801b21f)
+
+
+
+---
+
+## **Best Model Analysis**
+1. **Neural Network (MLP)**  
+   - **MAE:** 2.204464e-03  
+   - **MSE:** 1.226218e-05  
+   - **RMSE:** 3.501740e-03  
+   - **R2 Score:** 0.999989  
+   **Why it stands out:** Neural Network (MLP) achieves extremely low error metrics and almost perfect R2 score, indicating a highly accurate prediction model.
+
+2. **Random Forest**  
+   - **MAE:** 3.437224e-03  
+   - **MSE:** 3.296846e-04  
+   - **RMSE:** 1.815722e-02 
+   - **R² Score:** 0.999710  
+   **Why it stands out:** Random Forest offers near-perfect prediction with a very high R² score and low error values, making it one of the top-performing models.
+
+3. **XGBoost**  
+   - **MAE:** 1.880181e-02  
+   - **MSE:** 2.138086e-03  
+   - **RMSE:** 4.623945e-02  
+   - **R² Score:** 0.998118
+   **Why it stands out:** XGBoost balances performance with speed, achieving impressive results with relatively low error metrics.
+
 
 
 
